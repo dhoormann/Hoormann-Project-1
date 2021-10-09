@@ -37,12 +37,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+
 
 ### Access Policies
 
@@ -55,12 +50,14 @@ Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
 
 A summary of the access policies in place can be found in the table below.
-
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name                 	| Function       	| IP Address             	| os    	|
+|----------------------	|----------------	|------------------------	|-------	|
+| Jump-Box-Provisioner 	| Gateway        	| 52.175254.118/10.0.1.4 	| Linux 	|
+| Web 1                	| Web Server     	| 40.65.115.158/10.0.1.5 	| LInux 	|
+| Web 2                	| Web Server     	| 40.65.115.158/10.0.1.5 	| Linux 	|
+| Elk                  	| Elk Server     	| 20.110.99.46/10.1.0.4  	| Linux 	|
+| Load Balancer        	| Load Balancer  	| 40.65.115.158          	| Linux 	|
+| Workstation          	| Access Control 	| Public IP              	| Linux 	|
 
 ### Elk Configuration
 
