@@ -44,10 +44,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet.
 
 Only the Elk machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+- Jump Box 10.0.1.4  SSH Port 22
 
 Machines within the network can only be accessed by the Jumpbox.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+- Workstation Port 5601
 
 A summary of the access policies in place can be found in the table below.
 | Name                 	| Function       	| IP Address             	| os    	|
