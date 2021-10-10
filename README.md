@@ -65,9 +65,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - No special coding skills needed it creates efficiencies and ensures security. 
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Docker install
+- Image downloaded
+- Configured container
+- Created playbook with Docker, Filebeat and Metricbeat
+- Launched the container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -75,14 +77,12 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
-
-We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+- Web 1 (10.0.1.5)  Web 2 (10.0.1.6) 
+- Filebeat and Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
-
+- Filebeat for collecting logs on remote machines can forward them to either Elasticsearh or Logstash. 
+- Metricbeat collects metrics from the operating stystem and takes that information to places as Elasticsearch or Logstash.
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
