@@ -35,7 +35,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Metricbeat helps you monitor servers by collecting metrics from system and services running on them. 
 
 The configuration details of each machine may be found below.
-![Screenshot (19)](https://user-images.githubusercontent.com/85586348/136707679-a4c9a126-c1ab-4363-8da9-3ba55e33bffd.png)
+
 
 
 
@@ -74,7 +74,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![](Images/docker_ps_output.png)![Screenshot (19)](https://user-images.githubusercontent.com/85586348/136707758-71f8817d-9a88-45a1-a758-07f4f7a04411.png)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
