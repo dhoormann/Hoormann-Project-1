@@ -35,7 +35,8 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Metricbeat helps you monitor servers by collecting metrics from system and services running on them. 
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+![Screenshot (19)](https://user-images.githubusercontent.com/85586348/136707679-a4c9a126-c1ab-4363-8da9-3ba55e33bffd.png)
+
 
 
 
